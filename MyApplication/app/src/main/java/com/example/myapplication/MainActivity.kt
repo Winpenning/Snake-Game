@@ -65,7 +65,7 @@ class MainActivity : ComponentActivity() {
 * do curso superior de tecnologia em Análise e Desenvolvimento de Sistemas
 * Projeto: Snake Game
 * */
-// CLASSE DE DADOS PARA DEFINIR O TAMANHO DA SNAKE
+
 data class State(val food: Pair<Int,Int>, val snake: List<Pair<Int,Int>>)
 
 // CLASSE QUE DEFINE A LÓGICA DE JOGO
